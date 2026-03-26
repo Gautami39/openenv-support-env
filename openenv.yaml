@@ -1,0 +1,17 @@
+name: support-env
+version: 1.0
+
+entrypoint: app.main:app
+
+tasks:
+  - easy_password_reset
+  - medium_refund_request
+  - hard_connection_issue
+
+actions:
+  action_type: string
+  message: string
+
+observations:
+  conversation: list
+  resolved: boolean
