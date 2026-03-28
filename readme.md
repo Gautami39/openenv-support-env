@@ -1,9 +1,23 @@
+---
+title: OpenEnv Support Environment
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: fastapi
+sdk_version: "0.100.0"
+python_version: "3.11"
+app_file: app/main.py
+pinned: false
+---
+
+
+
 # OpenEnv Support Environment
+This project implements a simple customer support simulation environment following the OpenEnv specification. The environment simulates support interactions where an agent must resolve user issues through a sequence of actions.
+
 
 ## Overview
 
-This project implements a simple customer support simulation environment following the OpenEnv specification.
-The environment simulates support interactions where an agent must resolve user issues through a sequence of actions.
 
 The environment exposes an API built with FastAPI and is deployed using Docker.
 
